@@ -275,7 +275,7 @@ deploymentConfigurations:
     jenkins:
       enabled: true
       masters:
-      - name: jenkins-master
+      - name: jenkins-dev
         permissions: {}
         address: http://jenkins.opsmx.net:8181/jenkins
         username: ${jenkins.username}
